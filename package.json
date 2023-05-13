@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "cd ui && npm install && npm run build && cd ../server && npm install",
+        "start": "cd ui && npm start",
+        "server": "nodemon server/index.js"
+    }
+}
